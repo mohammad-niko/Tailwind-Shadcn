@@ -1,5 +1,5 @@
-import Card from "@/Component/common/Card";
-import Logos from "@/Component/common/Logos";
+import Card from "@/Component/common/Card.jsx";
+import Logos from "@/Component/common/Logos.jsx";
 import { Button } from "@/Components/ui/button.jsx";
 
 

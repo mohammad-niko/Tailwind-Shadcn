@@ -2,7 +2,7 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,DropdownMenuTrigger 
-} from "@/components/ui/dropdown-menu";
+} from "@/Components/ui/dropdown-menu.jsx";
 
 function DropDown() {
   return (

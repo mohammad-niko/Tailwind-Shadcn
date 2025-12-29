@@ -1,5 +1,5 @@
-import DropDown from "@/Component/common/DropDown";
-import MenuDropDown from "@/Component/common/MenuDropDown";
+import DropDown from "@/Component/common/DropDown.jsx";
+import MenuDropDown from "@/Component/common/MenuDropDown.jsx";
 import { Button } from "@/Components/ui/button.jsx";
 
 
