@@ -1,6 +1,6 @@
 import Card from "@/Component/common/Card";
 import Logos from "@/Component/common/Logos";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button.jsx";
 
 function Main() {
   const cardData = [
