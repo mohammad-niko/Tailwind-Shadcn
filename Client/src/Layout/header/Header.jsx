@@ -1,6 +1,7 @@
 import DropDown from "@/Component/common/DropDown";
 import MenuDropDown from "@/Component/common/MenuDropDown";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
+
 
 function Header() {
   const navItem = ["About", "Blog", "Contact"];

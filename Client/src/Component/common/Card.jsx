@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Card({info}) {
     const {title,text} = info
