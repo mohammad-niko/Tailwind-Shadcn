@@ -3,7 +3,7 @@ import Main from "./Layout/main/Main";
 
 function App() {
   return (
-    <div className="container mx-auto px-13">
+    <div className="container mx-auto px-1  sm:px-13">
       <header>
         <Header />
       </header>

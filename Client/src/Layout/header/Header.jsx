@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 function Header() {
   const navItem = ["About", "Blog", "Contact"];
   return (
-    <section className="flex justify-between items-center py-6 px-20 ">
+    <section className="flex justify-between items-center py-6 px-5 sm:px-20 ">
       <div className="order-1 lg:order-2 flex lg:hidden">
         <MenuDropDown />
       </div>

@@ -35,10 +35,10 @@ function Main() {
       {/* hero section */}
       <section className="flex flex-col lg:flex-row justify-center items-center gap-4 ">
         <div className="flex flex-col justify-center gap-10 order-2 lg:order-1 pt-3">
-          <h1 className="text-start text-2xl md:text-4xl lg:text-6xl font-bold tracking-tight text-balance ">
+          <h1 className="text-start px-1 text-2xl md:text-4xl lg:text-6xl font-bold tracking-tight text-balance ">
             Scalable Apps With frameworks
           </h1>
-          <p className="leading-7 not-first:mt-6 w-full">
+          <p className="leading-7 not-first:mt-6 w-full px-1">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
             praesentium enim reprehenderit labore iusto dicta, quae maiores
             perferendis magni veniam deserunt quia itaque.
@@ -79,8 +79,8 @@ function Main() {
        {logos.map((i,index)=> <Logos key={index} src={i} />)}
        </div>
 
-      <div className="flex flex-col items-center gap-15 bg-gray-950 text-white p-20 rounded-xl ">
-      <h2 className=" text-2xl lg:text-4xl xl:text-6xl">Build faster websites</h2>
+      <div className="flex flex-col items-center gap-15 bg-gray-950 text-white w-full sm:w-auto p-5 sm:p-20 rounded-xl ">
+      <h2 className=" text-2xl smtext-3xl text-center md:text-4xl xl:text-6xl">Build faster websites</h2>
       <p className="w-auto">Pull content from anywhere and serve it fast with Astro's next-gen island architecture</p>
       <Button variant="outline" className="text-black px-7 py-5">Get Start</Button>
       </div>
